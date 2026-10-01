@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Frontend Developer Intern",
+    "company": "TechNova Solutions",
+    "domain": "Web Development",
+    "location": "Hyderabad",
+    "type": "Remote",
+    "duration": "3 Months",
+    "stipend": "₹10,000/month"
+  },
+  {
+    "title": "Data Analyst Intern",
+    "company": "DataBridge Labs",
+    "domain": "Data Science",
+    "location": "Bengaluru",
+    "type": "Hybrid",
+    "duration": "6 Months",
+    "stipend": "₹12,000/month"
+  },
+  {
+    "title": "Cybersecurity Intern",
+    "company": "SecureNet Technologies",
+    "domain": "Cybersecurity",
+    "location": "Hyderabad",
+    "type": "On-site",
+    "duration": "4 Months",
+    "stipend": "₹8,000/month"
+  },
+  {
+    "title": "Cloud Engineer Intern",
+    "company": "CloudSphere",
+    "domain": "Cloud Computing",
+    "location": "Pune",
+    "type": "Remote",
+    "duration": "3 Months",
+    "stipend": "₹15,000/month"
+  },
+  {
+    "title": "Java Developer Intern",
+    "company": "CodeCraft Systems",
+    "domain": "Java Development",
+    "location": "Chennai",
+    "type": "Hybrid",
+    "duration": "6 Months",
+    "stipend": "₹10,000/month"
+  },
+  {
+    "title": "React Developer Intern",
+    "company": "WebWorks India",
+    "domain": "Web Development",
+    "location": "Remote",
+    "type": "Remote",
+    "duration": "3 Months",
+    "stipend": "₹7,000/month"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "AI Vision Labs",
+    "domain": "Data Science",
+    "location": "Hyderabad",
+    "type": "Hybrid",
+    "duration": "6 Months",
+    "stipend": "₹12,000/month"
+  },
+  {
+    "title": "Cloud Support Intern",
+    "company": "NextCloud Technologies",
+    "domain": "Cloud Computing",
+    "location": "Bengaluru",
+    "type": "On-site",
+    "duration": "4 Months",
+    "stipend": "₹9,000/month"
+  }
+]

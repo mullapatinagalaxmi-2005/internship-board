@@ -1,7 +1,19 @@
 # Responsive Internship Board
 
-A beginner-friendly responsive internship listing platform built using
-HTML, CSS, JavaScript, Node.js, Express and SQLite.
+A beginner-friendly responsive internship listing platform built using HTML, CSS, JavaScript, Node.js, Express and SQLite.
+
+## Live Demo
+
+### Frontend
+https://internship-board-1.onrender.com
+
+### Backend API
+https://internship-board-kgql.onrender.com
+
+### GitHub Repository
+https://github.com/mullapatinagalaxmi-2005/internship-board
+
+---
 
 ## Features
 
@@ -13,6 +25,7 @@ HTML, CSS, JavaScript, Node.js, Express and SQLite.
 - Search functionality
 - Domain filtering
 - Clear filters
+- Pagination
 - Empty state
 - Error state
 - Accessible form labels
@@ -32,6 +45,27 @@ HTML, CSS, JavaScript, Node.js, Express and SQLite.
 - Pagination
 - CORS support
 
+---
+
+## Technologies Used
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Node.js
+- Express.js
+- SQLite
+- CORS
+
+### Deployment
+- GitHub
+- Render
+
+---
+
 ## Project Structure
 
 ```text
@@ -45,6 +79,7 @@ internship-board/
 ├── backend/
 │   ├── server.js
 │   ├── db.js
+│   ├── seed.js
 │   ├── package.json
 │   │
 │   ├── routes/
@@ -58,4 +93,5 @@ internship-board/
 │
 ├── screenshots/
 │
+├── .gitignore
 └── README.md

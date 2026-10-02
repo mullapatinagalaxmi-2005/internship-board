@@ -1,17 +1,24 @@
 # Responsive Internship Board
 
-A beginner-friendly responsive internship listing platform built using HTML, CSS, JavaScript, Node.js, Express and SQLite.
+A beginner-friendly responsive internship listing platform built using HTML, CSS, JavaScript, Node.js, Express.js and SQLite.
+
+The platform allows users to browse internships, search by keywords, filter by domain and navigate through internship listings using pagination.
+
+---
 
 ## Live Demo
 
 ### Frontend
-https://internship-board-1.onrender.com
+
+[Live Internship Board](https://internship-board-1.onrender.com)
 
 ### Backend API
-https://internship-board-kgql.onrender.com
+
+[Live REST API](https://internship-board-kgql.onrender.com)
 
 ### GitHub Repository
-https://github.com/mullapatinagalaxmi-2005/internship-board
+
+[GitHub Repository](https://github.com/mullapatinagalaxmi-2005/internship-board)
 
 ---
 
@@ -31,6 +38,7 @@ https://github.com/mullapatinagalaxmi-2005/internship-board
 - Accessible form labels
 - Keyboard-friendly controls
 - Semantic HTML
+- Dynamic internship rendering using JavaScript
 
 ### Backend
 
@@ -44,54 +52,58 @@ https://github.com/mullapatinagalaxmi-2005/internship-board
 - Domain filtering
 - Pagination
 - CORS support
+- Individual internship lookup
+- Error handling
 
 ---
 
 ## Technologies Used
 
 ### Frontend
+
 - HTML5
 - CSS3
 - JavaScript
 
 ### Backend
+
 - Node.js
 - Express.js
 - SQLite
 - CORS
 
-### Deployment
+### Development Tools
+
+- Visual Studio Code
 - GitHub
-- Render
+- npm
+
+### Deployment
+
+- Render Static Site
+- Render Web Service
 
 ---
 
-## Project Structure
+## REST API
+
+The backend provides a RESTful API for managing internship records.
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/internships` | Get internships with pagination |
+| GET | `/api/internships/:id` | Get a single internship |
+| POST | `/api/internships` | Create a new internship |
+| PUT | `/api/internships/:id` | Update an internship |
+| DELETE | `/api/internships/:id` | Delete an internship |
+
+---
+
+## API Features
+
+### Pagination
+
+Example:
 
 ```text
-internship-board/
-
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── backend/
-│   ├── server.js
-│   ├── db.js
-│   ├── seed.js
-│   ├── package.json
-│   │
-│   ├── routes/
-│   │   └── internships.js
-│   │
-│   └── middleware/
-│       └── validation.js
-│
-├── data/
-│   └── internships.json
-│
-├── screenshots/
-│
-├── .gitignore
-└── README.md
+GET /api/internships?page=1&limit=6

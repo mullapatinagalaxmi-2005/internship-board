@@ -2,7 +2,7 @@
 // API CONFIGURATION
 // ==========================================
 
-const API_URL = "http://localhost:5000/api/internships";
+const API_URL = "https://internship-board-kgql.onrender.com/api/internships";
 
 
 // ==========================================
@@ -262,7 +262,7 @@ async function loadInternships(page = 1) {
         emptyMessage.hidden = true;
 
         errorMessage.textContent =
-            "Unable to connect to the internship server. Make sure the backend is running on port 5000.";
+            "Unable to connect to the internship server. Please try again later.";
 
         errorMessage.hidden = false;
 
